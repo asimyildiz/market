@@ -1,0 +1,39 @@
+.navbarHeader {
+  background-color: rgb(30, 164, 206);
+  padding: 0;
+}
+
+.navbarContainer {
+  display: flex;
+  height: 76.64px;
+}
+
+.navbarBrand {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.navbarCart {
+  height: 100%;
+  background-color: #147594;
+}
+
+.navCart {
+  padding: 1.25rem;
+}
+
+.cartImage {
+  margin: 0.5rem 0;
+}
+
+.price {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 0.6rem;
+}
+
+.price::before {
+  content: "\20BA\00a0";
+}

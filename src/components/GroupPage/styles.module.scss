@@ -1,0 +1,52 @@
+@import "../../theme/variables";
+
+.container {
+  margin-top: 32px;
+}
+
+.root {
+  list-style: "none";
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: inline-block;
+  text-align: center;
+}
+
+.leftButtonMargin {
+  margin-left: 55px;
+}
+
+.rightButtonMargin {
+  margin-right: 55px;
+}
+
+.button {
+  font-size: 0.875rem;
+  font-weight: 400;
+  background-color: transparent;
+  width: 32px;
+  height: 40px;
+  color: $color-dark-gray;
+}
+
+.buttonIcon {
+  height: 24px;
+  color: $color-primary;
+}
+
+.label {
+  padding-top: 12px;
+  color: $color-primary;
+}
+
+.selected {
+  background-color: $color-primary !important;
+  color: $color-white;
+  border-radius: 0;
+}

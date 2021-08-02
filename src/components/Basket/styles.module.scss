@@ -1,0 +1,61 @@
+@import "../../theme/variables";
+
+.basket {
+  border: 8px solid $color-primary;
+}
+
+.item {
+  padding: 20px;
+}
+
+.title {
+  color: $color-light-black;
+}
+
+.price {
+  color: $color-primary;
+  font-weight: 600;
+}
+
+.price::before {
+  content: "\20BA\00a0";
+}
+
+.buttons {
+  right: 27px;
+  display: flex;
+}
+
+.count {
+  width: 32px;
+  background-color: $color-primary;
+}
+
+.count > input {
+  color: $color-white;
+  text-align: center;
+}
+
+.totalContainer {
+  border: 2px solid $color-primary;
+  width: 92px;
+  height: 50px;
+  margin: 16px 16px 16px auto;
+}
+
+.total {
+  color: $color-primary;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 11px 18px;
+}
+
+.total::before {
+  content: "\20BA\00a0";
+}
+
+.divider {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}

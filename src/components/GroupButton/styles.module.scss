@@ -1,0 +1,24 @@
+@import "../../theme/variables";
+
+.title {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  color: $color-dark-gray !important;
+  font-size: 1.25rem;
+}
+
+.button {
+  text-transform: none;
+  color: $color-primary;
+  background-color: $color-light-gray;
+}
+
+.active {
+  color: $color-white;
+  background-color: $color-primary;
+}
+
+.noMarginLeft {
+  margin-left: 0 !important;
+  margin-right: 1rem !important;
+}

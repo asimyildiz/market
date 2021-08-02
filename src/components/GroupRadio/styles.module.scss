@@ -1,0 +1,21 @@
+@import "../../theme/variables";
+
+.groupContainer {
+  width: 100%;
+}
+
+.groupTitle {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  color: $color-dark-gray !important;
+  font-weight: 600 !important;
+}
+
+.radioGroup {
+  background-color: $color-white;
+}
+
+.radioItem {
+  padding-left: 1.5rem;
+  color: $color-gray;
+}
